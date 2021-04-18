@@ -9,7 +9,6 @@ double ln(double x) {
     int z=1;
     for (i = 1; i <= 10; i++){
         s=s+z*stx/fakt;
-        i++;
         stx=stx*(x-1);
         fakt=i;
         z=z*(-1); 
